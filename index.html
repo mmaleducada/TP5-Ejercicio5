@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="/css/style.css" />
     <title>Cronometro</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-danger-subtle">
@@ -22,7 +24,22 @@
         </nav>
     </header>
     <main>
-        
+        <section class="container">
+            <h1 class="text-light">Cronómetro</h1>
+            <div class="cronometro">
+                <div class="tiempo">
+                    <span id="horas" class="text-light">00:</span>
+                    <span id="minutos" class="text-light">00:</span>
+                    <span id="segundos" class="text-light">00:</span>
+                    <span id="milisegundos" class="text-light">000</span>
+                </div>
+                <div class="botones">
+                    <button id="iniciar" class="btn btn-primary mx-2">Iniciar</button>
+                    <button id="resetear" class="btn btn-danger mx-2">Resetear</button>
+                    <button id="pausar" class="btn btn-secondary mx-2">Pausar</button>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="bg-dark text-light text-center py-4">&copy; Todos los derechos reservados</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
@@ -30,4 +47,5 @@
         crossorigin="anonymous"></script>
     <script src="/js/app.js"></script>
 </body>
+
 </html>

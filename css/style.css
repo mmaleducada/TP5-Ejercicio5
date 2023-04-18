@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(55, 0, 110);
+    background-color: rgb(55, 0, 110);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -7,4 +7,27 @@ body {
 
 main {
     flex-grow: 1;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cronometro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tiempo {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
 }
